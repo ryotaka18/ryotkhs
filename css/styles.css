@@ -11454,7 +11454,6 @@ section.resume-section .resume-section-content {
     flex: 1 1 auto;
     margin-left: 0;
     max-width: 30%;
-    border: solid;
     display: block;
     max-height: 1000px;
 }
