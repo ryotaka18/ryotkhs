@@ -11433,3 +11433,33 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+/* グリッド
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container {
+    margin: 0 auto;
+    width:100%;
+    background-color: #ffff;
+}
+/* ブロックを縦に表示 */
+.row {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+
+}
+.col {
+    display: block;
+    flex: 1 1 auto;
+    margin-left: 0;
+    max-width: 30%;
+    border: solid;
+    display: block;
+    max-height: 1000px;
+}
+
+img {
+	max-width:100%;
+	height: auto;/*高さ自動*/
+}
