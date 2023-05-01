@@ -11462,3 +11462,23 @@ img {
 	max-width:100%;
 	height: auto;/*高さ自動*/
 }
+
+.portfolio-container {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  height: 400px;
+}
+
+.portfolio-item {
+  flex: 0 0 auto;
+  width: 300px;
+  margin-right: 20px;
+  scroll-snap-align: start;
+  text-align: center;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+}
